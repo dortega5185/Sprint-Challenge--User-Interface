@@ -71,6 +71,45 @@ p {
     margin: 0 auto;
 }
 
+header{
+    padding-top: 20px;
+}
+
+.topNav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.topNav .navBar{
+    min-width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    max-height: 35px;
+    /* padding-top: 15px; */
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+    padding: 2%;
+    margin-top: 10px;
+}
+
+.topImg{
+    margin: 20px 15px;
+}
+.aboutText{
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+.aboutText h3{
+    margin-left: 40px;
+}
+.aboutText p{
+    margin: 0px 0px 30px 40px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +122,29 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+.middle{
+    margin-left: 20px;
+}
+.middle .twoSet{
+    display: flex;
+    justify-content: space-around;
+}
+.middle .midSect{
+    border-bottom: 1px dashed black;
+    margin: 0px 15px 40px 15px;
+
+}
+.middle .midSect img{
+    margin-bottom: 15px;
+}
+.middle .midSect button{
+    border-radius: 6px;
+    border: solid black 2px;
+    padding: 6px 15px;
+    margin: 10px 0px 19px 0px;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 .middle-content {
@@ -104,12 +166,42 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.boxes .box1{
+    background: #008081;
+}
+.boxes .box2{
+    background: #FFD802;
+}
+.boxes .box3{
+    background: #609EA1;
+}
+.boxes .box4{
+    background: #FF7F51;
+}
+.boxes .box5{
+    background: #DC143C;
+}
+.boxes .box6{
+    background: #228B22;
+}
+.boxes .box7{
+    background: #9933CC;
+}
+.boxes .box8{
+    background: #FF69B4;
+}
+.boxes .box9{
+    background: #4C0082;
+}
+.boxes .box10{
+    background: #1E90FF;
 }
 
 .bottom-content {
@@ -124,6 +216,10 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+.bottomPart{
+    text-align: left;
+    margin: 0px 8px 30px 30px;
 }
 
 footer {
